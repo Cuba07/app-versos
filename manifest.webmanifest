@@ -1,0 +1,17 @@
+{
+  "name": "Ẹsẹ · versos de Ifá",
+  "short_name": "Ẹsẹ",
+  "description": "Estudio de versos de Ifá con audio sincronizado y tonos visibles.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#12301F",
+  "theme_color": "#12301F",
+  "lang": "es",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
