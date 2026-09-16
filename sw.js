@@ -1,5 +1,5 @@
 // Guarda la app para que abra sin conexión. Los versos y audios viven aparte, en la base del navegador.
-const CACHE = 'ese-v1';
+const CACHE = 'ese-v2';
 const FILES = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './icon-180.png'];
 
 self.addEventListener('install', e => {
