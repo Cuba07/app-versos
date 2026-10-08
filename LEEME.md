@@ -1,12 +1,11 @@
-# Ẹsẹ · versos de Ifá — app para teléfono y web
+# Ẹsẹ̀ · versos de Ifá — app para teléfono y web
 
 Estos archivos son la misma herramienta, preparada para instalarse en el iPhone y funcionar sin conexión.
 
 ## Publicarla (una sola vez)
 
 1. En GitHub, crea un repositorio nuevo. Puede ser público o privado con GitHub Pages activado.
-2. Sube estos seis archivos tal cual, en la raíz del repositorio:
-   `index.html`, `sw.js`, `manifest.webmanifest`, `icon-192.png`, `icon-512.png`, `icon-180.png`.
+2. Sube todo tal cual en la raíz del repositorio: `index.html`, `sw.js`, `manifest.webmanifest`, los tres `icon-*.png` y la carpeta `fonts/` completa.
 3. Entra en **Settings → Pages**, elige **Deploy from a branch**, rama `main`, carpeta `/ (root)`, y guarda.
 4. En un par de minutos tendrás una dirección como `https://tuusuario.github.io/versos-ifa/`.
 
@@ -26,6 +25,20 @@ En Android y en la computadora, Chrome ofrece instalarla desde el ícono de la b
 4. Repite cuando quieras sincronizar los dos aparatos. Los versos con el mismo identificador se actualizan en lugar de duplicarse.
 
 Los versos se guardan en cada dispositivo por separado: no hay servidor de por medio y nada sale de tus aparatos. Respalda de vez en cuando; ese archivo es tu copia de seguridad.
+
+## Si no se escucha el audio en el iPhone
+
+El interruptor lateral del teléfono silencia el sonido de las páginas web. Súbelo a modo timbre y sube el volumen con los botones laterales mientras la app está abierta. La app pide al sistema la sesión de reproducción, pero en iPhones viejos el interruptor manda igual.
+
+## Si algo no se guardó
+
+En la biblioteca hay un botón **Almacenamiento**. Dice dónde se guardan los versos, cuánto espacio queda y si algún verso quedó incompleto, con el motivo. Si la lista muestra versos que no abren, ahí mismo se limpian.
+
+Cuando el teléfono se queda sin espacio, importa el respaldo en dos o tres partes, o usa audios más cortos.
+
+## Tipografías incluidas
+
+La carpeta `fonts/` lleva las tipografías dentro de la app (Gentium Book Plus para el yorùbá y Atkinson Hyperlegible para la interfaz, ambas con licencia SIL OFL, incluida en `fonts/OFL.txt`). Gracias a eso los tonos se dibujan siempre sobre su letra, también sin conexión. Si no se suben esos archivos, el teléfono usa una tipografía del sistema que coloca mal los acentos.
 
 ## Actualizar la app
 
